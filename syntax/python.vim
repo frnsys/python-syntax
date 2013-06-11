@@ -145,7 +145,7 @@ syn keyword pythonStatement     pass raise
 syn keyword pythonStatement     global assert
 syn keyword pythonStatement     lambda yield
 syn keyword pythonStatement     with
-syn keyword pythonStatement     def class nextgroup=pythonFunction skipwhite
+syn keyword pythonDefinition     def class nextgroup=pythonFunction skipwhite
 syn keyword pythonRepeat        for while
 syn keyword pythonConditional   if elif else
 syn keyword pythonPreCondit     import from
